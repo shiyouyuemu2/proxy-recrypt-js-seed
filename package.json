@@ -8,15 +8,15 @@
     "transform-encryption",
     "ecc"
   ],
-  "homepage": "https://github.com/yjjnls/js_proxy",
+  "homepage": "https://github.com/shiyouyuemu2/proxy-recrypt-js-seed",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "author": "gegham,yjjnls",
+  "author": "gegham,yjjnls,shiyouyuemu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yjjnls/js_proxy"
+    "url": "https://github.com/shiyouyuemu2/proxy-recrypt-js-seed"
   },
   "license": "MIT",
   "devDependencies": {
