@@ -1685,7 +1685,6 @@
 
   BN.prototype.mulTo = function mulTo (num, out) {
     var res;
-    // console.log("AAAAA");
     var len = this.length + num.length;
     if (this.length === 10 && num.length === 10) {
       res = comb10MulTo(this, num, out);

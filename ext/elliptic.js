@@ -2219,7 +2219,6 @@
     EC.prototype.genKeyPair = function genKeyPair(seed, options) {
       if (!options)
         options = {};
-      console.log(elliptic.rand(this.hash.hmacStrength))
       // Instantiate Hmac_DRBG
       var drbg = new HmacDRBG({
         hash: this.hash,
@@ -2233,7 +2232,6 @@
       var bytes = this.n.byteLength();
       var ns2 = this.n.sub(new BN(2));
       do {
-        console.log(seed)
         var priv = new BN(drbg.generate(bytes, seed));
         if (priv.cmp(ns2) > 0)
           continue;
